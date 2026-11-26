@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+<p align="center">
+  <img src="./public/favicon.svg" width="72" height="72" alt="Hearth & Seal icon" />
+</p>
 
-# Run and deploy your AI Studio app
+# Hearth & Seal — Secret Santa
 
-This contains everything you need to run your app locally.
+A tiny, zero-backend Secret Santa exchange app for friends: generate private, encrypted reveal links in your browser and share them so everyone can unseal who they drew without any server, database, or sign-up.
 
-View your app in AI Studio: https://ai.studio/apps/3f05ffc7-e2a6-4278-a04e-16d370c9c42d
+**Live site:** https://danieledambrosi-rizzoli.github.io/secret-santa/
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## About This Repo
 
+- **Fully vibecoded:** Built quickly with AI assistance just for fun.
+- **Unmaintained:** I won't be actively maintaining this repository, reviewing PRs, or providing support.
+- **Just for friends & Christmas:** There is no monetization, tracking, or commercial goal behind this—it's simply a little game for friends to share a happy Christmas.
+- **Fork freely:** Anyone is welcome to fork, remix, or host their own copy with zero restrictions or hard feelings.
+- **Seasonal archive:** Once testing is finished, this repository will be **archived until next Christmas** (the GitHub Pages site will stay up and available in the meantime).
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+To build for production:
+
+```bash
+npm run build
+```
