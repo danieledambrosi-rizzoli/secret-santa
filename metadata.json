@@ -1,0 +1,6 @@
+{
+  "name": "Hearth & Seal",
+  "description": "Zero-infrastructure Secret Santa exchange using encrypted private reveal links and guaranteed non-reciprocal matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
