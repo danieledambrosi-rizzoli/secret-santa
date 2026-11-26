@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ArrowDownRight } from 'lucide-react';
-import HERO_IMAGE_SRC from '../assets/images/hero_winter_stationery_1795714537397.jpg';
+import HERO_IMAGE_SRC from '../assets/images/grinch_gifts.jpg';
 
 interface HeroSectionProps {
   onComposeClick: () => void;
@@ -56,7 +56,7 @@ export function HeroSection({ onComposeClick }: HeroSectionProps) {
                 {!imageFailed ? (
                   <img
                     src={HERO_IMAGE_SRC}
-                    alt="Cream cotton stationery envelopes sealed with deep crimson wax alongside pine sprigs and a brass fountain pen"
+                    alt="Cindy Lou Who and the Grinch in How the Grinch Stole Christmas"
                     referrerPolicy="no-referrer"
                     onError={() => setImageFailed(true)}
                     className="h-64 w-full object-cover sm:h-80 lg:h-full lg:min-h-[340px]"
@@ -74,8 +74,8 @@ export function HeroSection({ onComposeClick }: HeroSectionProps) {
                 )}
               </div>
               <figcaption className="mt-3 font-display text-sm italic text-[#5C534A]">
-                Fig. 1 — Each reveal URL carries an AES-GCM sealed payload in its fragment, keeping
-                matches invisible to servers and chat link previews.
+                Fig. 1 — &ldquo;Maybe Christmas doesn&apos;t come from a store. Maybe Christmas,
+                perhaps, means a little bit more!&rdquo; — How the Grinch Stole Christmas
               </figcaption>
             </figure>
           </div>
